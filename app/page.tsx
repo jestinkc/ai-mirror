@@ -32,7 +32,7 @@ const MOODS = [
 ]
 
 // Generate array of image names
-const FACE_IMAGES = Array.from({ length: 10 }, (_, i) => `img${i + 1}.JPG`)
+const FACE_IMAGES = Array.from({ length: 10 }, (_, i) => `img${i + 1}.jpg`)
 
 export default function AIMirror() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -185,7 +185,7 @@ export default function AIMirror() {
   useEffect(() => {
     if (stream && videoRef.current && isModelLoaded && !showResults) {
       // Use interval instead of requestAnimationFrame for more stable detection
-      detectionIntervalRef.current = setInterval(detectFace, 100) // 10 FPS for stability
+       // 10 FPS for stability
 
       return () => {
         if (detectionIntervalRef.current) {
@@ -359,9 +359,9 @@ export default function AIMirror() {
         {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-4">
-            AI Mirror: Useless Edition
+            AI Mirror:
           </h1>
-          <p className="text-lg text-gray-300">The most unnecessarily advanced selfie experience</p>
+          <p className="text-lg text-gray-300">The most advanced selfie experience</p>
           {!isModelLoaded && (
             <div className="mt-4 flex items-center justify-center gap-2 text-cyan-400">
               <Loader2 className="h-4 w-4 animate-spin" />
@@ -465,7 +465,7 @@ export default function AIMirror() {
                         src={randomFaceImage}
                         alt="AI analyzed face"
                         className="w-full h-auto"
-                        onError={e => { e.currentTarget.onerror = null; e.currentTarget.src = "/img1.jpg"; }}
+                        onError={e => { e.currentTarget.onerror = null; e.currentTarget.src = "/placeholder.svg"; }}
                       />
                     </div>
                   )}
