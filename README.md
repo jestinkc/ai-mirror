@@ -5,35 +5,35 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [404: Purpose Not Found]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
+- Team Lead: [Jestin KC] - [Mar Baselios Christian College of Engineering and Technology,Peermade]
+- Member 2: [Alwin Daniel Biju] - [Mar Baselios Christian College of Engineering and Technology ,Peermade]
 - Member 3: [Name] - [College]
 
 ### Project Description
-[2-3 lines about what your project does]
+this is a web based face detection and web application 
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+take a photo and show random photo
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+takes photo flikering and didn't show random face
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [typescript]
+- [Face-api.js]
+- [react js]
+- [vs code]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- []
+- []
+- [L]
 
 ### Implementation
 For Software:
@@ -47,14 +47,14 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+https://drive.google.com/file/d/1_T_2NhC4gW9sO0s5epHYsM5s1Vkpjlg9/view?usp=drivesdk
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1oVbpL_P_eK-2citOVJEbnfNwMIlnmdCb/view?usp=drivesdk
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1sRATbhwnyaNKR6m3gNbxGB_a7x5fnxqj/view?usp=drivesdk
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -80,16 +80,12 @@ For Hardware:
 *Explain the final build*
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+# Video# Additional Demos
+https://drive.google.com/file/d/1_T_2NhC4gW9sO0s5epHYsM5s1Vkpjlg9/view?usp=drivesdk
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
+- Jestin K C :Fix image loading errors 
+- Alwin Daniel Biju:Improve canva resize
 - [Name 3]: [Specific contributions]
 
 ---
